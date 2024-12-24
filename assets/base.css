@@ -2447,8 +2447,8 @@ input[type='checkbox'] {
 
 .header__heading-link .h2 {
   line-height: 1;
-  --color: rgba(var(--color-foreground), 0.75);
-  color:  rgb(217 208 243 / 75%);
+  color: rgba(var(--color-foreground), 0.75);
+  /* color:  rgb(217 208 243 / 75%); */
   
 }
 
@@ -2936,7 +2936,7 @@ details-disclosure > details {
 .gradient {
   background: rgb(var(--color-background));
   background: var(--gradient-background);
-  //background: lightyellow;
+  /* background: lightyellow; */
   background-attachment: fixed;
 }
 
